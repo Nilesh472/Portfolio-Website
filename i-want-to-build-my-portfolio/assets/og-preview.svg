@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="50%" stop-color="#0b1629"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#20d3ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="120" r="180" fill="#20d3ff" opacity="0.08"/>
+  <circle cx="1020" cy="120" r="150" fill="#7c5cff" opacity="0.1"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#0d1627" stroke="#2a3856"/>
+  <text x="110" y="220" fill="#eef3ff" font-family="Space Grotesk, Arial, sans-serif" font-size="72" font-weight="700">
+    Nilesh Yadav
+  </text>
+  <text x="110" y="300" fill="#c7d6f8" font-family="Space Grotesk, Arial, sans-serif" font-size="34">
+    AI Automation, Analytics, Dashboards, and Modern Web Development
+  </text>
+  <path d="M110 400 C250 350, 350 460, 500 390 S770 300, 910 430 S1060 420, 1090 330" fill="none" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="500" fill="#89a1cc" font-family="JetBrains Mono, monospace" font-size="24">
+    Data Analyst | AI Automation Builder | Web Developer
+  </text>
+</svg>

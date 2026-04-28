@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nilesh Yadav | AI Automation, Analytics & Career Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Nilesh Yadav, blending analytics, AI automation, dashboard systems, and modern web experiences for career opportunities and client work."
+    />
+    <meta name="theme-color" content="#070b14" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="home">
+    <div class="noise"></div>
+    <div class="gradient-orbit gradient-orbit-a"></div>
+    <div class="gradient-orbit gradient-orbit-b"></div>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <header class="site-header" data-shell="header"></header>
+
+    <main>
+      <section class="hero hero-page">
+        <div class="container hero-grid home-hero-grid">
+          <div class="hero-copy" data-reveal>
+            <span class="status-pill">Open for career opportunities and selective freelance projects</span>
+            <p class="section-kicker">Analytics, AI automation, and modern digital execution</p>
+            <h1 class="display-title">
+              Building smart systems, stronger dashboards, and professional digital experiences.
+            </h1>
+            <p class="hero-lead">
+              I’m Nilesh Yadav, a data analyst and builder working at the intersection of business insight,
+              Power BI and Tableau automation, AI workflows, and web experiences that feel modern and credible.
+            </p>
+            <div class="role-rotator">
+              <span class="mono-label">Current focus signal</span>
+              <strong id="rotating-role">Data Analyst</strong>
+            </div>
+            <div class="hero-actions">
+              <a class="primary-button magnetic" href="./contact.html">Connect Us</a>
+              <a class="ghost-button magnetic" href="./projects.html">Explore Projects</a>
+            </div>
+            <div class="hero-socials" data-socials></div>
+            <div class="hero-badges" id="hero-badges"></div>
+          </div>
+
+          <div class="hero-scene" data-reveal>
+            <div class="hero-visual-panel glass glass-strong">
+              <img src="./assets/visuals/robot-orbit.svg" alt="AI themed robot visual" class="hero-visual-image" />
+              <div class="hero-floating glass">
+                <span class="mono-label">Career + Client Positioning</span>
+                <strong>Professional credibility with product-minded execution</strong>
+              </div>
+            </div>
+            <div class="hero-stack-card glass" data-tilt>
+              <img src="./assets/visuals/ai-core.svg" alt="AI core dashboard illustration" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">Home overview</p>
+            <h2>This site is designed to help both recruiters and clients understand my trajectory fast.</h2>
+          </div>
+          <div class="insight-grid" id="home-highlights"></div>
+        </div>
+      </section>
+
+      <section class="section compact-section">
+        <div class="container marquee-shell glass" data-reveal>
+          <div class="marquee-track">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Tableau</span>
+            <span>AI Workflows</span>
+            <span>Automation</span>
+            <span>Web Development</span>
+            <span>Career Growth</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Tableau</span>
+            <span>AI Workflows</span>
+            <span>Automation</span>
+            <span>Web Development</span>
+            <span>Career Growth</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container page-grid two-up">
+          <div class="content-stack" data-reveal>
+            <p class="section-kicker">About direction</p>
+            <h2>From Python and backend foundations into business analytics, dashboard systems, and AI-first thinking.</h2>
+            <p class="section-copy">
+              I’m building a career that combines analytical depth with delivery ability. I enjoy shaping useful systems,
+              presenting cleaner insights, and creating experiences that make technical work easier to trust.
+            </p>
+            <a class="ghost-button" href="./about.html">Read My Story</a>
+          </div>
+          <div class="media-card glass glass-strong" data-reveal data-tilt>
+            <img src="./assets/visuals/career-launch.svg" alt="Career journey themed illustration" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">Featured project</p>
+            <h2>A quick look at how I frame technical work as something usable, clear, and outcome-oriented.</h2>
+          </div>
+          <div id="home-featured-project"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-shell="footer"></footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
