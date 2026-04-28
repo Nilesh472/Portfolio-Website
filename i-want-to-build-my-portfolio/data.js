@@ -28,7 +28,7 @@ window.portfolioData = {
     "Power BI & Tableau Automation Specialist",
     "AI Workflow Builder",
     "Web Experience Developer",
-    "Professional Portfolio Strategist"
+    "Business Intelligence Career Candidate"
   ],
   socials: [
     { label: "LinkedIn", icon: "linkedin", href: "https://www.linkedin.com/in/nilesh-yadav-251468236/" },
@@ -48,8 +48,8 @@ window.portfolioData = {
   ],
   highlightCards: [
     {
-      title: "Professional Track",
-      copy: "Building my professional career through analytics, product thinking, and technical execution in live business environments.",
+      title: "Career Track",
+      copy: "Positioned for analyst, BI, and product-facing data roles with real business exposure and delivery discipline.",
       icon: "briefcase-business"
     },
     {
@@ -67,7 +67,7 @@ window.portfolioData = {
     story:
       "I started with backend and Python-led development, then moved deeper into analytics, dashboarding, reporting, and business-facing problem solving. Today, I work in the Revenue Planning and Growth team at Tata CLiQ Fashion, where I support decisions through analytics, Power BI and Tableau dashboard automation, and cleaner reporting systems. That foundation, combined with my earlier backend and API experience at Kuhoo, lets me operate at the intersection of business understanding and technical execution.",
     mission:
-      "This portfolio is designed to do two jobs at once: present me as a serious early-career professional and create trust with clients who need modern dashboards, automation, websites, and AI-assisted workflows.",
+      "This portfolio is designed to do two jobs at once: present me as a serious early-career professional for recruiters and create trust with clients who need dashboards, automation, websites, and AI-assisted workflows.",
     points: [
       "Current role grounded in revenue, growth, business analytics, and dashboard automation.",
       "Backend and API development experience from Kuhoo adds engineering depth.",
@@ -244,7 +244,10 @@ window.portfolioData = {
       summary: "Unified medical diagnostics concept for predictive insights in healthcare contexts.",
       tools: ["Python", "Flask", "Machine Learning"],
       outcome: "AI product concept with practical UX framing.",
-      image: "./assets/projects/wisecare.svg"
+      image: "./assets/projects/wisecare.svg",
+      challenge: "Turn a complex medical prediction idea into something more understandable and product-like.",
+      approach: "Framed the ML logic inside a cleaner diagnostic experience instead of treating it like a raw model demo.",
+      impact: "Shows applied AI thinking, product framing, and the ability to turn technical work into a more usable concept."
     },
     {
       title: "Healthcare Management System",
@@ -252,7 +255,10 @@ window.portfolioData = {
       summary: "AI, blockchain, and smart records thinking applied to healthcare workflow design.",
       tools: ["ML", "Blockchain", "PinataCloud"],
       outcome: "Explored secure and intelligent record workflows.",
-      image: "./assets/projects/healthcare-system.svg"
+      image: "./assets/projects/healthcare-system.svg",
+      challenge: "Explore how healthcare record systems could become smarter, more secure, and easier to work with.",
+      approach: "Combined AI and blockchain concepts into a structured application idea focused on trust and record accessibility.",
+      impact: "Demonstrates systems thinking and comfort working with layered technical problem spaces."
     },
     {
       title: "WhatsApp Chat Analyser",
@@ -260,7 +266,10 @@ window.portfolioData = {
       summary: "Dashboard-led analysis of group and individual chat patterns with visual outputs.",
       tools: ["Python", "Streamlit", "NLP", "ML"],
       outcome: "Transformed raw conversations into clear behavioral visuals.",
-      image: "./assets/projects/whatsapp-analyser.svg"
+      image: "./assets/projects/whatsapp-analyser.svg",
+      challenge: "Make unstructured chat history easier to read and interpret through meaningful outputs.",
+      approach: "Built a dashboard-led analysis flow with graphs, NLP-driven breakdowns, and visual summaries.",
+      impact: "Shows how raw data can be turned into engaging, insight-oriented interfaces."
     },
     {
       title: "PashuFarm Marketplace",
@@ -268,7 +277,10 @@ window.portfolioData = {
       summary: "Marketplace concept for livestock buying and selling with practical use-case alignment.",
       tools: ["Django", "Python", "SQL"],
       outcome: "Shipped a niche product idea with domain-focused execution.",
-      image: "./assets/projects/pashufarm.svg"
+      image: "./assets/projects/pashufarm.svg",
+      challenge: "Design a marketplace around a very specific and underserved buying flow.",
+      approach: "Built a domain-aligned website experience with backend logic and structured data support.",
+      impact: "Highlights practical product thinking and vertical-specific execution."
     },
     {
       title: "Student Study Portal",
@@ -276,7 +288,10 @@ window.portfolioData = {
       summary: "Learning portal designed to reduce friction for students seeking AI and ML study materials.",
       tools: ["Django", "SQL", "Python"],
       outcome: "Problem-led educational resource platform.",
-      image: "./assets/projects/study-portal.svg"
+      image: "./assets/projects/study-portal.svg",
+      challenge: "Help students find useful AI and ML study resources without wasting time searching across scattered sources.",
+      approach: "Created a focused portal structure around accessibility, organization, and practical student need.",
+      impact: "Shows empathy-driven product design and the ability to simplify a real user problem."
     },
     {
       title: "Automation Dashboard Concept",
@@ -284,7 +299,10 @@ window.portfolioData = {
       summary: "Editable placeholder for a future client case study around workflow automation and reporting.",
       tools: ["Power BI", "SQL", "Automation"],
       outcome: "Replace with live freelance case study when available.",
-      image: "./assets/projects/automation-dashboard.svg"
+      image: "./assets/projects/automation-dashboard.svg",
+      challenge: "Represent the type of reporting and automation work I want more of in client-facing projects.",
+      approach: "Structured this as a future case-study slot with the same storytelling pattern used for real work.",
+      impact: "Keeps the portfolio ready for stronger freelance proof as more live work gets added."
     }
   ],
   featuredProject: {
@@ -308,6 +326,12 @@ window.portfolioData = {
       name: "Client feedback",
       role: "Replace with future client details"
     }
+  ],
+  recruiterSignals: [
+    "Experience inside a live revenue and growth environment at Tata CLiQ Fashion.",
+    "Backend and API execution experience from Kuhoo adds engineering depth.",
+    "Strong fit for analyst, BI, reporting, dashboard, and product-facing data roles.",
+    "Comfortable presenting both technical credibility and business usefulness."
   ],
   faq: [
     {

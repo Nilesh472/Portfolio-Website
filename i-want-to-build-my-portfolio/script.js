@@ -94,6 +94,7 @@ const renderHero = () => {
   const role = $("#rotating-role");
   const badgeTrack = $("#hero-badges");
   const highlightGrid = $("#home-highlights");
+  const recruiterSignals = $("#recruiter-signals");
 
   if (badgeTrack) {
     badgeTrack.innerHTML = data.heroBadges.map((item) => `<span>${item}</span>`).join("");
@@ -110,6 +111,12 @@ const renderHero = () => {
           </article>
         `
       )
+      .join("");
+  }
+
+  if (recruiterSignals) {
+    recruiterSignals.innerHTML = data.recruiterSignals
+      .map((item) => `<div class="signal-item"><i data-lucide="badge-check"></i><span>${item}</span></div>`)
       .join("");
   }
 
@@ -357,8 +364,12 @@ const renderProjects = () => {
             </div>
             <h3>${project.title}</h3>
             <p>${project.summary}</p>
+            <div class="story-points">
+              <div><small>Challenge</small><p>${project.challenge || project.summary}</p></div>
+              <div><small>Approach</small><p>${project.approach || project.outcome}</p></div>
+            </div>
             <div class="tag-wrap">${project.tools.map((tool) => `<span>${tool}</span>`).join("")}</div>
-            <div class="project-outcome">${project.outcome}</div>
+            <div class="project-outcome">${project.impact || project.outcome}</div>
           </article>
         `
       )
@@ -488,6 +499,7 @@ const setMenu = () => {
 
   nav.addEventListener("click", (event) => {
     if (event.target.matches("a")) {
+      document.body.classList.add("page-leaving");
       nav.classList.remove("open");
       menuButton.setAttribute("aria-expanded", "false");
     }
@@ -646,6 +658,7 @@ const refreshIcons = () => {
 };
 
 const init = () => {
+  document.body.classList.add("page-ready");
   renderShell();
   renderSocialChips();
   renderHero();
